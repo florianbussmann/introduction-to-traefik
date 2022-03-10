@@ -1,0 +1,8 @@
+# Docker configuration backend
+providers:
+  docker:
+    # To expose container through Traefik require label `traefik.enable=true`
+    exposedByDefault: false
+# API and dashboard configuration
+api:
+  insecure: true
